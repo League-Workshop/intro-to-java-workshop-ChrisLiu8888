@@ -2,9 +2,27 @@ package section4;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class AwesomeOrNot {
 
 	// 1. Make a main method that includes all the steps below…
+	public static void main(String[] args) {
+		int randome=(new Random().nextInt(4));
+		
+String question= JOptionPane.showInputDialog("enter something");
+if(randome==0) {
+	
+	JOptionPane.showMessageDialog(null, question+" is lame");
+	}
+if(randome==1) {
+		JOptionPane.showMessageDialog(null, question+" is lame");
+}		
+if(randome==2) {
+			JOptionPane.showMessageDialog(null, question+" is lame");
+}
+}	
+	}
 
 	// 2. Make a variable that will hold a random number and put a random number into this variable using "new Random().nextInt(4)"
 
@@ -28,6 +46,6 @@ public class AwesomeOrNot {
 
 	// -- write your own answer
 
-}
+
 
 
